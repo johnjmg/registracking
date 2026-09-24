@@ -4,7 +4,7 @@ Sistema web para gestionar deudores, deudas y pagos. Reemplaza el Excel con una 
 
 ---
 
-## ✨ Características
+## Características
 
 - 🔐 Autenticación segura (Laravel Breeze)
 - 👥 CRUD de deudores
@@ -25,6 +25,10 @@ Sistema web para gestionar deudores, deudas y pagos. Reemplaza el Excel con una 
 - **Build:** Vite
 
 ---
+
+## Demo en vivo
+
+https://registracking.jmartech.com 
 
 ## 🚀 Instalación
 
@@ -60,7 +64,7 @@ Abre `http://127.0.0.1:8000` y regístrate.
 
 ---
 
-## 🧩 Modelo de datos
+## Modelo de datos
 
 ```
 User (1) ── (N) Deudor (1) ── (N) Deuda (1) ── (N) Pago
